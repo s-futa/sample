@@ -147,6 +147,10 @@ body {
   font-family: "Noto Sans JP", serif;
   line-height: 1.6;
 }
+
+main {
+  overflow: hidden;
+}
 body h1,
 body ul,
 body li,
