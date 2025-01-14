@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<!-- やること -->
+ <!-- 縮小しても崩れないように
+ 右端はみ出てる部分の非表示
+ Gitへの公開
+ フォーム作成
+ れスポンジブ -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MONKEY SPANNER</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo-area">
+        <h1 class="company-name">MONKEY SPANNER</h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#top">TOP</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#message">MESSAGE</a></li>
+          <li><a href="#voice">VOICE</a></li>
+          <li><a href="#recruit">RECRUIT</a></li>
+          <li><a href="#entry">ENTRY</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="main-visual" id="top">
+      <video class="background-video" autoplay muted loop playsinline>
+        <source src="images/video.mp4" type="video/mp4">
+        <!-- 動画が再生できない場合のメッセージ -->
+        Your browser does not support the video tag.
+      </video>
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="logo slide-in">
+          <img src="images/logo.png" alt="Company Logo">
+        </div>
+        <h2 class="slide-in-l">①Welcome to MONKEY SPANNER</h2>
+      </div>
+      <div class="deco-main-visual"></div>
+      <div class="deco-main-visual2"></div>
+    </section>
+    <section class="about-section" id="about">
+      <div class="about-title">
+        <h2 class="section-title">ABOUT</h2>
+        <p>②モンキースパナの三つの特徴</p>
+      </div>
+      <div class="about-content">
+        <!-- 1つ目のコンテンツ -->
+        <div class="about-item slide-in">
+          <div class="about-image">
+            <img src="images/image1.jpg" alt="About Image 1">
+            <div class="deco1"></div>
+          </div>
+          <div class="about-text">
+            <p>③ここに1つ目のコンテンツの文章が入ります。</p>
+          </div>
+        </div>
+
+        <!-- 2つ目のコンテンツ（反転） -->
+        <div class="about-item  slide-in-r">
+          <div class="about-text">
+            <p>④ここに2つ目のコンテンツの文章が入ります。</p>
+          </div>
+          <div class="about-image">
+            <img src="images/image2.jpg" alt="About Image 2">
+            <div class="deco1"></div>
+          </div>
+        </div>
+
+        <!-- 3つ目のコンテンツ -->
+        <div class="about-item  slide-in">
+          <div class="about-image">
+            <img src="images/image3.jpg" alt="About Image 3">
+            <div class="deco1"></div>
+          </div>
+          <div class="about-text">
+            <p>⑤ここに3つ目のコンテンツの文章が入ります。</p>
+          </div>
+        </div>
+      </div>
+      <div class="deco2"></div>
+    </section>
+    <section class="message-section" id="message">
+
+      <div class="message-container">
+        <!-- 左側：タイトルと文章 -->
+        <div class="message-left slide-in">
+          <h2 class="section-title">MESSAGE</h2>
+          <p>
+            ⑥ここにメッセージの文章が入ります。
+            何か重要なメッセージや企業の理念を表示することができます。
+          </p>
+        </div>
+
+        <!-- 右側：斜めに切り取った画像 -->
+        <div class="message-right slide-in-l">
+          <div class="image-container">
+            <img src="images/message-image.jpg" alt="Message Image">
+            <div class="deco1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="voice-section" id="voice">
+
+      <div class="voice-title slide-in">
+        <h2 class="section-title">ABOUT</h2>
+      </div>
+
+      <div class="carousel-container slide-in">
+        <div class="carousel">
+          <div class="carousel-item">
+            <img src="images/employee1.jpg" alt="Employee 1">
+            <div class="carousel-spacer"></div>
+            <div class="carousel-info">
+              <h3>⑩苗字 名前</h3>
+              <p>⑪役職</p>
+              <p>⑫ここにインタビューの内容が入ります。<br>ここにインタビューの内容が入ります。<br>ここにインタビューの内容が入ります。</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/employee2.jpg" alt="Employee 2">
+            <div class="carousel-spacer"></div>
+            <div class="carousel-info">
+              <h3>⑬苗字 名前</h3>
+              <p>⑭役職</p>
+              <p>⑮ここにインタビューの内容が入ります。<br>ここにインタビューの内容が入ります。<br>ここにインタビューの内容が入ります。</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/employee3.jpg" alt="Employee 3">
+            <div class="carousel-spacer"></div>
+            <div class="carousel-info">
+              <h3>⑦苗字 名前</h3>
+              <p>⑧役職</p>
+              <p>⑨ここにインタビューの内容が入ります。<br>ここにインタビューの内容が入ります。<br>ここにインタビューの内容が入ります。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="parallax-section">
+      <div class="parallax-content">
+    </section>
+
+    <section class="recruit-section" id="recruit">
+      <h2 class="section-title slide-in">RECRUIT</h2>
+      <p class="recruit-intro slide-in">
+
+      </p>
+      <div class="recruit-details slide-in">
+        <p>⑯未経験からでも資格取得までサポートします。</p>
+        <table class="recruit-table">
+          <tbody>
+            <tr>
+              <th>⑰募集要項すべて含めて⑰職種</th>
+              <td>⑰整備士</td>
+            </tr>
+            <tr>
+              <th>⑰勤務地</th>
+              <td>⑰住所</td>
+            </tr>
+            <tr>
+              <th>⑰雇用形態</th>
+              <td>⑰正社員</td>
+            </tr>
+            <tr>
+              <th>⑰給与</th>
+              <td>⑰具体的に記入するかはお任せします。</td>
+            </tr>
+            <tr>
+              <th>⑰仕事内容</th>
+              <td>
+                ⑰トラックの整備など
+              </td>
+            </tr>
+            <tr>
+              <th>⑰応募資格</th>
+              <td>⑰未経験可、経験者優遇</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>⑱詳しい求人情報などは以下のページからご覧いただけます。</p>
+        <a href="/entry" class="recruit-button">最新の求人情報</a>
+      </div>
+    </section>
+
+    <section class="entry-section" id="entry">
+      <h2 class="section-title slide-in">ENTRY</h2>
+      <p class="slide-in">⑲エントリーは以下のサイトにて受付しております。<br>是非、エントリーをお願いいたします。</p>
+      <div class="entry-content slide-in">
+        <a href="/entry" class="entry-button">エントリーページへ</a>
+        <div class="contact-info">
+          <h3>⑳ご相談などは以下の連絡先までお願いします。</h3>
+          <p><strong>㉑お問い合わせ先:</strong></p>
+          <p>㉒電話番号: 03-1234-5678</p>
+          <p>㉓FAX: 03-9876-5432</p>
+          <p>㉔受付時間: 平日 9:00 - 18:00</p>
+          <p>㉕住所: </p>
+          <p>株式会社モンキースパナ</p>
+        </div>
+      </div>
+      <div class="deco2"></div>
+    </section>
+
+    <footer class="footer-modern">
+      <div class="footer-top">
+        <img src="images/logo.png" alt="企業ロゴ" class="logo-circle-modern">
+        <ul class="footer-menu-modern">
+          <li><a href="#top">TOP</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#message">MESSAGE</a></li>
+          <li><a href="#voice">VOICE</a></li>
+          <li><a href="#recruit">RECRUIT</a></li>
+          <li><a href="#entry">ENTRY</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-bottom-left">
+          <p class="footer-company-name-modern">MONKEY SPANNER</p>
+          <p class="footer-copyright-modern">
+            © 2025 MONKEY SPANNER. All rights reserved.
+          </p>
+        </div>
+        <div class="footer-bottom-right">
+          <img src="images/related-logo1.png" alt="関連企業1" class="related-logo-modern">
+          <img src="images/related-logo2.png" alt="関連企業2" class="related-logo-modern">
+        </div>
+      </div>
+    </footer>
+
+
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
